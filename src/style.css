@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/parking-bg.jpg');
+  background-size: cover;        /* Menyesuaikan fullscreen */
+  background-position: center;   /* Fokus tengah */
+  background-repeat: no-repeat;  /* Tidak mengulang */
+  background-attachment: fixed;  /* Biar efek parallax lembut */
+  font-family: sans-serif;
+}
